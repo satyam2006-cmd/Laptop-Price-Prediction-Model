@@ -51,7 +51,7 @@ else:
 # ------------------ App Title ------------------
 st.markdown("<div class='title'>💻 Laptop Price Predictor</div>", unsafe_allow_html=True)
 st.markdown("Estimate the market price of your laptop based on specs.")
-st.image("laptop_price_prediction_model.png", width=250)
+st.image("https://user-images.githubusercontent.com/113234633/208248053-de8898ea-5f32-4bad-956e-2c0a91d3039b.png", width=250)
 
 # ------------------ Input Fields ------------------
 col1, col2 = st.columns(2)
