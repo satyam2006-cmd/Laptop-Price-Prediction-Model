@@ -2,6 +2,8 @@
 
 A machine learning project that predicts laptop prices based on hardware specifications using regression algorithms such as **Linear Regression**, **Support Vector Regression (SVR)**, and **Random Forest**.
 
+Streamlit link - https://laptoppricepredictionmodel0.streamlit.app/
+
 Built and fine-tuned by [Satyam Bhagat](https://github.com/satyam2006-cmd).
 
 ---
