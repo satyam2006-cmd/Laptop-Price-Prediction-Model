@@ -1,4 +1,4 @@
-# 💻 Laptop Price Prediction Model
+# Laptop Price Prediction Model
 
 A machine learning project that predicts laptop prices based on hardware specifications using regression algorithms such as **Linear Regression**, **Support Vector Regression (SVR)**, and **Random Forest**.
 
@@ -6,7 +6,7 @@ Built and fine-tuned by [Satyam Bhagat](https://github.com/satyam2006-cmd).
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 With the rise of online laptop marketplaces, estimating the right price based on specifications can be tricky. This model helps:
 
@@ -16,7 +16,7 @@ With the rise of online laptop marketplaces, estimating the right price based on
 
 ---
 
-## 🗃️ Dataset
+## Dataset
 
 - **Source:** `laptop_prices.csv`
 - **Rows:** ~1,700
@@ -34,7 +34,7 @@ With the rise of online laptop marketplaces, estimating the right price based on
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 1. **Clone the repo**
    ```bash
@@ -56,7 +56,7 @@ With the rise of online laptop marketplaces, estimating the right price based on
 
 ---
 
-## 🧠 Models Used
+## Models Used
 
 | Model                   | R² Score     |
 | ----------------------- | ------------ |
@@ -68,7 +68,7 @@ With the rise of online laptop marketplaces, estimating the right price based on
 
 ---
 
-## 📌 Workflow
+## Workflow
 
 1. **Data Cleaning**
 
@@ -89,7 +89,7 @@ With the rise of online laptop marketplaces, estimating the right price based on
 
 ---
 
-## 🧪 Sample Prediction
+## Sample Prediction
 
 ```python
 query = np.array(['HP', 'Notebook', 'Intel Core i5 7th Gen', '8GB', '1TB HDD', 
@@ -103,7 +103,7 @@ print(f"Predicted Price: {predicted_price[0]:.2f} Euros")
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 * Python 3.8+
 * pandas
@@ -120,7 +120,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧠 Enhancements (Optional)
+## Enhancements (Optional)
 
 * [ ] Deploy as Flask web app for user interaction.
 * [ ] Add Streamlit dashboard for visual predictions.
@@ -130,7 +130,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🙋‍♂️ Author
+## Author
 
 **Satyam Bhagat**
 
@@ -138,13 +138,13 @@ pip install -r requirements.txt
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 💬 Feedback
+## Feedback
 
 Feel free to create an issue or pull request. Star ⭐ the repo if you found it helpful!
 
