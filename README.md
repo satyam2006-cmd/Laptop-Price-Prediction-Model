@@ -1,4 +1,3 @@
-````markdown
 # 💻 Laptop Price Prediction Model
 
 A machine learning project that predicts laptop prices based on hardware specifications using regression algorithms such as **Linear Regression**, **Support Vector Regression (SVR)**, and **Random Forest**.
@@ -41,7 +40,7 @@ With the rise of online laptop marketplaces, estimating the right price based on
    ```bash
    git clone https://github.com/satyam2006-cmd/Laptop-Price-Prediction-Model.git
    cd Laptop-Price-Prediction-Model
-````
+
 
 2. **Install required packages**
 
