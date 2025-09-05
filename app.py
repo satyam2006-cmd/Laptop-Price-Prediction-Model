@@ -8,45 +8,28 @@ model = joblib.load('laptop_price_prediction_model.pkl')
 # ------------------ Page Config ------------------
 st.set_page_config(page_title="Laptop Price Predictor", layout="centered")
 
-# ------------------ Theme Toggle ------------------
-theme = st.selectbox("🌓 Choose Theme", ["Dark", "Light"], index=0)
-
-if theme == "Dark":
-    st.markdown("""
-        <style>
-        .stApp {
-            background-color: #0e1117;
-            color: #FAFAFA;
-            font-family: 'Segoe UI', sans-serif;
-        }
-        .title { color: #4db8ff; font-size: 2.4rem; font-weight: bold; }
-        .card {
-            background-color: #1e1e1e;
-            padding: 20px;
-            border-radius: 12px;
-            margin-top: 20px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.3);
-        }
-        </style>
-    """, unsafe_allow_html=True)
-else:
-    st.markdown("""
-        <style>
-        .stApp {
-            background-color: #ffffff;
-            color: #000000;
-            font-family: 'Segoe UI', sans-serif;
-        }
-        .title { color: #3366cc; font-size: 2.4rem; font-weight: bold; }
-        .card {
-            background-color: #e8f0fe;
-            padding: 20px;
-            border-radius: 12px;
-            margin-top: 20px;
-            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
-        }
-        </style>
-    """, unsafe_allow_html=True)
+# ------------------ Dark Theme Styling ------------------
+st.markdown("""
+    <style>
+    .stApp {
+        background-color: #0e1117;
+        color: #FAFAFA;
+        font-family: 'Segoe UI', sans-serif;
+    }
+    .title { 
+        color: #4db8ff; 
+        font-size: 2.4rem; 
+        font-weight: bold; 
+    }
+    .card {
+        background-color: #1e1e1e;
+        padding: 20px;
+        border-radius: 12px;
+        margin-top: 20px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    }
+    </style>
+""", unsafe_allow_html=True)
 
 # ------------------ App Title ------------------
 st.markdown("<div class='title'>💻 Laptop Price Predictor</div>", unsafe_allow_html=True)
